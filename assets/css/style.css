@@ -113,7 +113,7 @@ canvas{
   background-attachment: fixed;
 
 }
-/* @keyframes bounceInLeft {
+@keyframes bounceInLeft {
   from,
   60%,
   75%,
@@ -192,7 +192,7 @@ canvas{
     -webkit-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0);
   }
-} */
+}
 body {
   font-family: 'Ubuntu', sans-serif;
   /* width:960px; */

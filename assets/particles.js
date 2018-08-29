@@ -113,8 +113,8 @@ var pJS = function(tag_id, params){
           duration: 0.4
         },
         repulse:{
-          distance: 200,
-          duration: 0.4
+          distance: 2000,
+          duration: 10
         },
         push:{
           particles_nb: 4
