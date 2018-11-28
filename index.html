@@ -57,9 +57,9 @@
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
           </li>
-          <li class="nav-item">
+          <!-- <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
-          </li>
+          </li> -->
           <li class="nav-item">
             <a href="https://www.linkedin.com/in/clay-palumbo/" target="_blank">
               <img src="assets/imgs/linkedin-3-xxl.png" alt="HTML tutorial" class="mr-2 ml-2 p-2" style="width:42px;height:42px;border:0;">
@@ -113,7 +113,7 @@
         <h3 class="text-center">Clay
           <span class="text-danger">Palumbo</span>
         </h3>
-        <p class="text-center">Data minded, product centric, web developer with a passion for problem solving and responsive design.</p>
+        <p class="text-center">Perpetually curious, product centric, MERN stack developer with a passion for problem solving and intuitive design.</p>
       </div>
       <!--Skills Bar-->
       <div class="col-lg-7">
@@ -121,7 +121,7 @@
 
         <div class="skillbar clearfix " data-percent="65%">
           <div class="skillbar-title" style="background: #d35400;">
-            <span>HTML5</span>
+            <span>React</span>
           </div>
           <div class="skillbar-bar" style="background: #e67e22;"></div>
           <div class="skill-bar-percent">65%</div>
@@ -157,7 +157,7 @@
 
         <div class="skillbar clearfix " data-percent="75%">
           <div class="skillbar-title" style="background: #333333;">
-            <span>Wordpress</span>
+            <span>HTML5</span>
           </div>
           <div class="skillbar-bar" style="background: #525252;"></div>
           <div class="skill-bar-percent">75%</div>
@@ -185,21 +185,21 @@
     </div>
   </div>
   <!--Project Section-->
-  <div class="jumbotron mt-5 mb-0 bg-light"  id="projects">
+  <div class="jumbotron mt-5 mb-0 bg-light"  id="portfolio">
     <div class="row">
       <div class="col-lg-12 text-center mb-3">
         <h2>Projects</h2>
       </div>
       <div class="col-lg-4">
-        <a href="http://dev.ilovemountains.org/" target="_blank">
-        <img src="assets/imgs/ILM.jpg" class="img-fluid">
+        <a href="http://foodtrucksniffer.herokuapp.com/" target="_blank">
+        <img src="assets/imgs/fts.png" class="img-fluid">
         </a>
         <div class="text-center p-3">
-          <p>iLoveMountains.org</p>
+          <p>Food Truck Finder</p>
         </div>
       </div>
       <div class="col-lg-4">
-        <a href="https://knowclassic.curblevel.com/" target="_blank">
+        <a href="https://35thyear.com/" target="_blank">
         <img src="assets/imgs/Classic.jpg"  class="img-fluid">
         </a>
         <div class="text-center p-3">
@@ -217,7 +217,7 @@
     </div>
   </div>
   <!--Contact Section-->
-  <div class="container-fluid bg-dark pt-3 pb-3">
+  <!-- <div class="container-fluid bg-dark pt-3 pb-3" id="contact">
     <div class="row">
       <div class="col-lg-12 text-center text-white p-3">
         <h2>Contact</h2>
@@ -244,6 +244,64 @@
       </div>
     </div>
   </div>
+  <form id="contact-form" method="post" action="contact.php" role="form">
+
+    <div class="messages"></div>
+
+    <div class="controls">
+
+        <div class="row">
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label for="form_name">Firstname *</label>
+                    <input id="form_name" type="text" name="name" class="form-control" placeholder="Please enter your firstname *" required="required" data-error="Firstname is required.">
+                    <div class="help-block with-errors"></div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label for="form_lastname">Lastname *</label>
+                    <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Please enter your lastname *" required="required" data-error="Lastname is required.">
+                    <div class="help-block with-errors"></div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label for="form_email">Email *</label>
+                    <input id="form_email" type="email" name="email" class="form-control" placeholder="Please enter your email *" required="required" data-error="Valid email is required.">
+                    <div class="help-block with-errors"></div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label for="form_phone">Phone</label>
+                    <input id="form_phone" type="tel" name="phone" class="form-control" placeholder="Please enter your phone">
+                    <div class="help-block with-errors"></div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="form-group">
+                    <label for="form_message">Message *</label>
+                    <textarea id="form_message" name="message" class="form-control" placeholder="Message for me *" rows="4" required="required" data-error="Please,leave us a message."></textarea>
+                    <div class="help-block with-errors"></div>
+                </div>
+            </div>
+            <div class="col-md-12">
+                <input type="submit" class="btn btn-success btn-send" value="Send message">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <p class="text-muted"><strong>*</strong> These fields are required. Contact form template by <a href="http://bootstrapious.com" target="_blank">Bootstrapious</a>.</p>
+            </div>
+        </div>
+    </div>
+
+</form> -->
   <!--Footer Section-->
   <div class="container-fluid text-center blue-background text-white" id="footer1">
     <div class="row">
@@ -259,11 +317,11 @@
             <a class="nav-link" href="#">About</a>
           </li>
           <li class="nav-item text-left">
-            <a class="nav-link" href="#">Projects</a>
+            <a class="nav-link" href="#portfolio">Projects</a>
           </li>
-          <li class="nav-item text-left">
-            <a class="nav-link" href="#">Contact Us</a>
-          </li>
+          <!-- <li class="nav-item text-left">
+            <a class="nav-link" href="#contact">Contact Us</a>
+          </li> -->
         </ul>
       </div>
     </div>
@@ -288,6 +346,10 @@
   <!-- scripts -->
   <script src="assets/particles.js"></script>
   <script src="assets/demo/js/app.js"></script>
+  <script src="contact.js"></script>
+  <script src="validator.js"></script>
+
+
 
 
 
