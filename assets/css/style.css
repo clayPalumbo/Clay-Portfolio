@@ -187,14 +187,19 @@ img::-moz-selection {
   line-height: 500px; 
 }
 .title-box {
+  background-color: #b92929de;  
   position: absolute;
   margin: auto;
   top: 50%;
   left: 50%;
   transform: translate( -50%, -50% );
+  border-radius: 25px;
   font-family: 'Open Sans', sans-serif;
   text-align: center;
   color: white;  
+}
+.title-color {
+  color: #f1da24;
 }
 
 /* ---- particles.js container ---- */
@@ -202,8 +207,8 @@ img::-moz-selection {
 #particles-js{
   width: 100%;
   height: 100%;
+  background-image: url("../imgs/Binary.jpg");
   background-color: #2980b9;
-  background-image: url('');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -218,7 +223,19 @@ img::-moz-selection {
   -webkit-transition: all .5s ease-in 3s;
   transition: all .5s ease-in 3s;
 }
+.parallax {
+  /* The image used */
+  background-image: url("../imgs/map-bg.jpg");
 
+  /* Set a specific height */
+  min-height: 70vh; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 .scroll-down {
   position: absolute;
   bottom: 30px;
