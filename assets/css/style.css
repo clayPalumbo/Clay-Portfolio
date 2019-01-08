@@ -202,6 +202,7 @@ img::-moz-selection {
   font-family: 'Open Sans', sans-serif;
   text-align: center;
   color: white;  
+  pointer-events: none;
 }
 .title-color {
   color: #f1da24;
