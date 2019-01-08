@@ -92,6 +92,10 @@ img::selection {
   background: transparent;
 }
 
+.img-shadow {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
 img::-moz-selection {
   color: #fff;
   background: transparent;
@@ -188,6 +192,7 @@ img::-moz-selection {
 }
 .title-box {
   background-color: #b92929de;  
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.28), 0 6px 20px 0 rgba(0, 0, 0, 0.39);
   position: absolute;
   margin: auto;
   top: 50%;
@@ -201,7 +206,53 @@ img::-moz-selection {
 .title-color {
   color: #f1da24;
 }
+.container1 {
+  position: relative;
+}
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
 
+.container1:hover .image {
+  opacity: 0.3;
+}
+
+.container1:hover .middle {
+  opacity: 1;
+}
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+.text1 {
+  background-color: #4CAF50;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+.text2 {
+  background-color: rgb(191, 38, 38);
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+.text3 {
+  background-color: rgb(38, 155, 191);
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}
 /* ---- particles.js container ---- */
 
 #particles-js{
