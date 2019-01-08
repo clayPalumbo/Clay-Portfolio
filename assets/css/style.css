@@ -223,7 +223,6 @@ img::-moz-selection {
 .container1:hover .image {
   opacity: 0.3;
 }
-
 .container1:hover .middle {
   opacity: 1;
 }
